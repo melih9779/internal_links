@@ -24,7 +24,7 @@ for a in data:
                 for b_f in a_f["data"]:
                     url_two = a_f["url"]
                     if b == b_f and b in search and url_once != url_two:
-                        print(b)
+                        ##print(b)
                         in_url = a["url"]+a_f["url"]
                         in_url2 = a_f["url"]+a["url"]
                         if not in_url in insert_url and not in_url2 in insert_url:
