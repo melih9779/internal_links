@@ -1,9 +1,11 @@
 # Internal Link Scraper
 Screaming Frog export content and internal link keyword analysis.
 
-# Required Python Packages
+### Required Python Packages
 * pandas 
 * trnlp
+
+
 - python -m pip install pandas trnlp
 
 ### Export Example Links:
