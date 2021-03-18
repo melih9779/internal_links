@@ -2,7 +2,7 @@ import pandas as pd
 from trnlp import *
 
 
-csv = pd.read_csv("data3.csv",usecols=['Content 1', 'Address']).dropna()
+csv = pd.read_csv("data.csv",usecols=['Content 1', 'Address']).dropna()
 print(csv)
 block_list= ['.','_','-','*','>','<','-','?']
 data = []
